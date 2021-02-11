@@ -37,7 +37,7 @@ ____________________________
 
 ## 3. Database
 
-[ERD diagram](database/ERD.ipynb)
+[ERD diagram](database/ERD.pdf)
 
 [Database schema](database/schema.sql)
 
