@@ -1,7 +1,51 @@
 # ETL-project
-![alt text](https://www.kroger.com/product/images/medium/front/0019181735007)
-SmartMilk
 
+# SmartMilk
+
+
+<img src="images/data-lake.gif"  align="right" width="70%"/>
+
+<img src="https://www.kroger.com/product/images/large/front/0019181735007" align="center" width="24%"/>
+
+
+<br> </br>
+
+_______________________
+<br> </br>
+
+## 1.1 Scrape Kroger milk API 
+
+[Kroger_location scrape code](kroger/kroger_location.ipynb)
+
+[Kroger_milk scrape code](kroger/kroger_milk_get_price.ipynb)
+
+__________________________
+## 1.2 Scrape HEB webpages
+
+[HEB scrape code](NEW_scraping_HEB.ipynb)
+
+_________________________
+## 2. Stage area filters
+
+[HEB filter](staging_area/filters_HEB.ipynb)
+
+[Kroger filter](staging_area/filters_kroger.ipynb)
+
+[Cleaned CSVs](data/)
+
+____________________________
+
+## 3. Database
+
+[ERD diagram](database/ERD.ipynb)
+
+[Database schema](database/schema.sql)
+
+[DATA insertion](database/data_etl.ipynb)
+
+[DATA check query](database/Check_database_insertion.ipynb)
+
+_________________________________
 For our group ETL project we’d like to look at the price of milk at different stores in different zip codes.
 
 
